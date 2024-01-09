@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.ebayimg.com/00/s/MFgyMTQ3NDgzNjQ3/z/6kUAAOxyqKVRiKt0/$_61.JPG);
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 15px;
+    text-shadow:3px 3px 5px black;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 2em;
+    line-height: 2rem;
+}
+
+#message-el{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.start-btn, .new-btn{
+    padding: 7px 10px;
+    width: 25vw;
+    background-color: goldenrod;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    color: #018a3e;
+    border-radius: 5px;
+}
+
+.start-btn{
+    margin-top: 150px;
+}
+.new-btn{
+    margin-top: 20px;
+}
