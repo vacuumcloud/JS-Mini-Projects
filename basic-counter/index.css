@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn{
+    background-color: firebrick;
+}
+#save-btn{
+    background-color: green;
+}
+
+/* #increment-btn:enabled{
+    animation: btnAnim 1s 0.2s 1 forwards;
+}
+
+@keyframes btnAnim {
+    0% {
+        width: 200px;
+    }
+
+    70%{
+        width: 220px;
+        height: 50px;
+    }
+
+    100%{
+        width: 200px;
+        height: auto;
+    }
+} */
