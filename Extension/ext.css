@@ -9,7 +9,7 @@
 body {
     padding: 10px;
     font-family: 'Lato', sans-serif;
-    min-width: 400px;
+    min-width: 515px;
 }
 
 @media (prefers-color-scheme: dark){
@@ -30,11 +30,34 @@ input{
 }
 
 button{
-    border: none;
-    padding: 10px 20px;
+    border: 1px solid #5f9341;
+}
+
+#input-btn{
+    width: 10rem;
+    padding: 8px 5px;
     background-color: #5f9341;
-    color: white;
-    font-size: 20px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tab-btn{
+    width: 10rem;
+    margin: 0px 5px;
+    padding: 8px 5px;
+    background-color: #5f9341;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#delete-btn{
+    width: 10rem;
+    padding: 8px 5px;
+    background-color: whitesmoke;
+    color: #5f9341;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ul{
@@ -44,6 +67,7 @@ ul{
 li{
     list-style: none;
     line-height: 25px;
+    font-size: 18px;
 }
 
 li a{

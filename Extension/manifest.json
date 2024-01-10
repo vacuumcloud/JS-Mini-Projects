@@ -5,5 +5,9 @@
     "action" : {
         "default_popup" : "ext.html",
         "default_icon" : "scissors.png"
-    }
+    },
+    "permissions" : [
+        "tabs",
+        "activeTab"
+    ]
 }
